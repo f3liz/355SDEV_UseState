@@ -4,6 +4,7 @@ import "./App.css";
 import { useState } from "react";
 
 function App() {
+  // destructuring state and passing it to RestaurantsContainer
   const [restaurantState, setRestaurantState] = useState([...restaurants])
   return (
     <div className="App">
